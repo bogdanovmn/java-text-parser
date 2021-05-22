@@ -6,7 +6,7 @@
 
 	<groupId>com.github.bogdanovmn.txtparser</groupId>
 	<artifactId>text-parser</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<packaging>jar</packaging>
 
 	<name>Text Parser</name>
@@ -16,6 +16,7 @@
 	<properties>
 		<encoding>UTF-8</encoding>
 		<java.version>1.8</java.version>
+		<tika.version>1.26</tika.version>
 	</properties>
 
 	<licenses>
@@ -45,12 +46,12 @@
 		<dependency>
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-parsers</artifactId>
-			<version>1.22</version>
+			<version>${tika.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-core</artifactId>
-			<version>1.22</version>
+			<version>${tika.version}</version>
 		</dependency>
 
 		<dependency>
