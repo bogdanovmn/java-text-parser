@@ -1,5 +1,5 @@
 
-
+![build](https://github.com/bogdanovmn/java-text-parser/actions/workflows/maven.yml/badge.svg)
 # Overview
 
 A small library that will help you to parse/fetch a text from a source (for example, PDF file). 
